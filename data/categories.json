@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        
+        "category_id": "1",
+        
+        "like": 488,
+        
+        "title": "Executive Chef-- ",
+        "author": {
+            "name": "Gordon Ramsay",
+            "experience": "30 Years"
+        },
+        
+        "category1_info":{
+            "name1":"Rudolph",
+            "name2":"Ashley",
+            "name3":"Morgan",
+            "name4":"Winchel",
+            "Price1": "515002",
+            "Price2": "54457",
+            "Price3": "78778",
+            "Price4": "97874",
+            "rating1":  4.5 ,
+            "rating2":  3.5 ,
+            "rating3":  2.5, 
+            "rating4":  5.5 
+        },
+
+        "category2_info":{
+            "name1":"Winchel",
+            "name2":"Goires",
+            "name3":"Morgan",
+            "name4":"Winchel",
+            "Price1": "4664",
+            "Price2": "4454",
+            "Price3": "7775",
+            "Price4": "9874",
+            "rating1":  4.5 ,
+            "rating2":  5.5 ,
+            "rating3":  2.5, 
+            "rating4":  4.5 
+        },
+        "category3_info":{
+            "name1":"Goires",
+            "name2":"Morgan",
+            "name3":"Morgan",
+            "name4":"Aceres",
+            "Price1": "4664",
+            "Price2": "4454",
+            "Price3": "7775",
+            "Price4": "9874",
+            "rating1":  5.5 ,
+            "rating2":  3.5 ,
+            "rating3":  2.5, 
+            "rating4":  1.5 
+        },
+
+
+       
+        "category1_img": {
+            "img1": "https://www.topgear.com/sites/default/files/2021/12/18.%20Koenigsegg%20Jesko.jpeg",
+            "img2": "https://i0.wp.com/www.wonderslist.com/wp-content/uploads/2015/04/Fastest-Supercars.jpg?fit=732%2C412&ssl=1",
+            "img3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQkKYeX3YAkU27_7U1GbkyZ0sXKdGP8lSvWPAw0-18JGuAVcs7tPB1-3wC05yFDQRvAU4&usqp=CAU",
+            "img4": "https://images.cdn.circlesix.co/image/2/1200/630/5/uploads/posts/2017/10/7ccdfd02f2bc58b48eaddce66b17a816.jpg"
+        },
+        "category2_img": {
+            "img1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwXSp5nxHxqwCAP4g8PP7UVJS6Ze_rTm6oGg&usqp=CAU",
+            "img2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-_jl-YPv-c0B4Z1u7YTRFbCatlZDSizbfr39Pzi_4cVQkXo1HXA1k8vmvAngxyO_8cQ&usqp=CAU",
+            "img3": "https://hips.hearstapps.com/pop.h-cdn.co/assets/16/08/1456423887-game-7.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
+            "img4": "https://i0.wp.com/naijaknowhow.net/wp-content/uploads/2019/09/Need-For-Speed-No-Limits-e1568828398555.jpg?resize=696%2C369&ssl=1"
+        },
+        "category3_img": {
+            "img1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ8EyfabfoXmbYvWXMAnYuP_Qoy7KWrym4Vg&usqp=CAU",
+            "img2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-_jl-YPv-c0B4Z1u7YTRFbCatlZDSizbfr39Pzi_4cVQkXo1HXA1k8vmvAngxyO_8cQ&usqp=CAU",
+            "img3": "https://hips.hearstapps.com/pop.h-cdn.co/assets/16/08/1456423887-game-7.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
+            "img4": "https://i0.wp.com/naijaknowhow.net/wp-content/uploads/2019/09/Need-For-Speed-No-Limits-e1568828398555.jpg?resize=696%2C369&ssl=1"
+        }
+    }
+    
+    
+]
