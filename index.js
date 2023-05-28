@@ -34,51 +34,80 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
 
-   
+
 
     const serviceCOllection = client.db('toyMarket').collection('services');
     const addtoy = client.db('toyMarket').collection('addtoy');
 
-    app.get('/addtoy',async(req,res)=>{
+    app.get('/addtoy', async (req, res) => {
       const cursor = addtoy.find();
       const result = await cursor.toArray();
       res.send(result);
     })
-   
-    app.post('/addtoy', async(req,res)=>{
+
+    app.post('/addtoy', async (req, res) => {
       const newToys = req.body;
       console.log(newToys);
       const result = await addtoy.insertOne(newToys);
       res.send(result)
     })
 
+    app.put('/addtoy/:id', async (req, res) => {
+      const id = req.params.id;
+      const filter = { _id: new ObjectId(id) }
+      const options = { upsert: true };
+      const updatedtoy = req.body;
+
+      const toy = {
+        $set: {
+          name: updatedtoy.name,
+          price: updatedtoy.price,
+          category: updatedtoy.category,
+          details: updatedtoy.details,
+          photo: updatedtoy.photo
+        }
+      }
+
+      const result = await addtoy.updateOne(filter, toy, options);
+      res.send(result);
+    })
+
+
+
     app.delete('/addtoy/:id', async (req, res) => {
       const id = req.params.id;
       const query = { _id: new ObjectId(id) }
       const result = await addtoy.deleteOne(query);
       res.send(result);
-  })
+    })
+
+    app.get('/addtoy/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) }
+      const result = await addtoy.findOne(query);
+      res.send(result);
+    })
 
 
 
-    app.get('/services',async(req,res)=>{
+    app.get('/services', async (req, res) => {
       const cursor = serviceCOllection.find();
       const result = await cursor.toArray();
       res.send(result);
     })
 
-  
-    app.get('/services/:id', async(req,res)=>{
+
+    app.get('/services/:id', async (req, res) => {
       const id = req.params.id;
-      const query ={ _id: new ObjectId(id)}
+      const query = { _id: new ObjectId(id) }
 
       const options = {
         // Include only the `title` and `imdb` fields in the returned document
-        projection: {  title: 1, name: 1 , image: 1, category: 1,details: 1,price: 1},
+        projection: { title: 1, name: 1, image: 1, category: 1, details: 1, price: 1 },
       };
 
 
-      const result = await serviceCOllection.findOne(query,options);
+      const result = await serviceCOllection.findOne(query, options);
       res.send(result)
     })
 
@@ -100,14 +129,14 @@ run().catch(console.dir);
 
 
 
-app.get('/categories',(req, res)=>{
-    res.send(categories);
+app.get('/categories', (req, res) => {
+  res.send(categories);
 })
 
-app.get('/',(req,res)=>{
-    res.send('toy Market in running')
+app.get('/', (req, res) => {
+  res.send('toy Market in running')
 });
 
-app.listen(port,()=>{
-    console.log(`Toy Market API is running on port:${port}`);
+app.listen(port, () => {
+  console.log(`Toy Market API is running on port:${port}`);
 })
