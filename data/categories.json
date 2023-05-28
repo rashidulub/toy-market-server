@@ -1,25 +1,24 @@
 [
     {
-        "_id": "642c155b2c4774f05c36eeaa",
         "name": "Rudolph",
         "image": "https://www.topgear.com/sites/default/files/2021/12/18.%20Koenigsegg%20Jesko.jpeg",
         "category": "Action",
         "price": 14.7,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
         "rating":  4.5 
 
     },
     {
-        "_id": "642c155b2c4774f05c36eeb9",
-        "name": "Morgan",
+        "name": "Temchel",
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
         "image": "https://i0.wp.com/www.wonderslist.com/wp-content/uploads/2015/04/Fastest-Supercars.jpg?fit=732%2C412&ssl=1",
         "category": "Sports",
         "price": 14.7,
-        "rating":  2.5 
+        "rating":  2.5 ,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
         
     },
     {
-        "_id": "642c155b2c4774f05c36ee88",
         "name": "Ashley",
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQkKYeX3YAkU27_7U1GbkyZ0sXKdGP8lSvWPAw0-18JGuAVcs7tPB1-3wC05yFDQRvAU4&usqp=CAU",
@@ -29,8 +28,7 @@
     },
     
     {
-        "_id": "642c155b2c4774f05c36ee8c",
-        "name": "Morgan",
+        "name": "Adveter",
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://images.cdn.circlesix.co/image/2/1200/630/5/uploads/posts/2017/10/7ccdfd02f2bc58b48eaddce66b17a816.jpg",
         "category": "Supper",
@@ -40,106 +38,106 @@
     
    
     {
-        "_id": "642c155b2c4774f05c36eea6",
         "name": "Winchel",
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwXSp5nxHxqwCAP4g8PP7UVJS6Ze_rTm6oGg&usqp=CAU",
         "category": "Action",
         "price": 13.5,
-        "rating":  5.5
+        "rating":  6.5,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
     },
     
     {
-        "_id": "642c155b2c4774f05c36ee89",
         "name": "Ashley",
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-_jl-YPv-c0B4Z1u7YTRFbCatlZDSizbfr39Pzi_4cVQkXo1HXA1k8vmvAngxyO_8cQ&usqp=CAU",
         "category": "Supper",
         "price": 13.5,
-        "rating":  2.5
+        "rating":  2.5,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
     },
     {
-        "_id": "642c155b2c4774f05c36ee8a",
-        "name": "Winchel",
+        "name": "althel",
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://hips.hearstapps.com/pop.h-cdn.co/assets/16/08/1456423887-game-7.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
         "category": "Supper",
         "price": 12.5,
-        "rating":  3.5
+        "rating":  3.5,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
     },
    
    
     {
-        "_id": "642c155b2c4774f05c36ee84",
-        "name": "Morgan",
+        "name": "uscaer",
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ8EyfabfoXmbYvWXMAnYuP_Qoy7KWrym4Vg&usqp=CAU",
         "category": "Supper",
         "price": 14.5,
-        "rating":  5.5
+        "rating":  5.5,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
     },
     {
-        "_id": "642c155b2c4774f05c36eea4",
-        "name": "Morgan",
+        "name": "afrous",
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ8EyfabfoXmbYvWXMAnYuP_Qoy7KWrym4Vg&usqp=CAU",
         "category": "Action",
         "price": 13.5,
-        "rating":  4.5
+        "rating":  4.5,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
     },
     {
-        "_id": "642c155b2c4774f05c36eea5",
-        "name": "Rudolph",
+        "name": "louwsa",
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-_jl-YPv-c0B4Z1u7YTRFbCatlZDSizbfr39Pzi_4cVQkXo1HXA1k8vmvAngxyO_8cQ&usqp=CAU",
         "category": "Action",
         "price": 9.5,
-        "rating":  2.5
+        "rating":  2.5,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
     },
     {
-        "_id": "642c155b2c4774f05c36ee87",
-        "name": "Morgan",
+        "name": "iteos",
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "https://hips.hearstapps.com/pop.h-cdn.co/assets/16/08/1456423887-game-7.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
         "category": "Supper",
         "price": 13.5,
-        "rating":  2.5
+        "rating":  2.5,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
     },
     
     {
-        "_id": "642c155b2c4774f05c36eea8",
-        "name": "Morgan",
+        "name": "fmoas",
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "https://hips.hearstapps.com/pop.h-cdn.co/assets/16/08/1456423887-game-7.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
         "category": "Action",
         "price": 13.5,
-        "rating":  2.5
+        "rating":  2.5,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
     },
     {
-        "_id": "642c155b2c4774f05c36eeba",
-        "name": "Winchel",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+        "name": "itesah",
+       
         "image": "https://i0.wp.com/naijaknowhow.net/wp-content/uploads/2019/09/Need-For-Speed-No-Limits-e1568828398555.jpg?resize=696%2C369&ssl=1",
         "category": "Sports",
         "price": 14.7,
-        "rating":  2.5
+        "rating":  2.5,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
     },
     {
-        "_id": "642c155b2c4774f05c36eea9",
-        "name": "Morgan",
+        "name": "gioya",
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "https://www.topgear.com/sites/default/files/2021/12/18.%20Koenigsegg%20Jesko.jpeg",
         "category": "Action",
         "price": 9.5,
-        "rating":  2.5
+        "rating":  2.5,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
     },
     {
-        "_id": "642c155b2c4774f05c36eeab",
-        "name": "Morgan",
+        "name": "gaysa",
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2017/01/bbq-370x247.jpg",
         "category": "Action",
         "price": 14.5,
-        "rating":  2.5
+        "rating":  2.5,
+        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
     }
 ]
