@@ -52,6 +52,15 @@ async function run() {
       res.send(result)
     })
 
+    app.delete('/addtoy/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) }
+      const result = await addtoy.deleteOne(query);
+      res.send(result);
+  })
+
+
+
     app.get('/services',async(req,res)=>{
       const cursor = serviceCOllection.find();
       const result = await cursor.toArray();
