@@ -40,7 +40,13 @@ async function run() {
     const addtoy = client.db('toyMarket').collection('addtoy');
 
     app.get('/addtoy', async (req, res) => {
-      const cursor = addtoy.find();
+      const query ={};
+      const options = {
+        // sort returned documents in ascending order by title (A->Z)
+        sort: { 'price': 1 },
+        
+      };
+      const cursor = addtoy.find(query,options);
       const result = await cursor.toArray();
       res.send(result);
     })
